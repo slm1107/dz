@@ -1,0 +1,57 @@
+/* mainthing */
+:root {
+    --privary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --privary-white-color: #ffffff;
+}
+.list {
+    list-style: none;
+}
+body {
+    background-color: var(--privary-white-color);
+    color: var(--privary-text-color);
+}
+/* SITE NAV */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+/* hero */
+.hero .hero-title {
+    color: var(--privary-white-color);
+}
+/* main */
+.section-title{
+    color: var(--title-text-color)
+}
+/* footer */
+.address {
+    color: var(--privary-white-color);
+}
+.contacts {
+    color: var(--privary-text-color);
+}
+
+span {
+    color: var(--accent-color)
+}
+.nav-page .link {
+    color: var(--title-text-color);
+    background-color: #F5F4FA;
+}
+.nav-page .link.current {
+    color: var(--privary-white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+
+
