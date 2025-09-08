@@ -11,8 +11,17 @@
 body {
     background-color: var(--privary-white-color);
     color: var(--privary-text-color);
+    
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
 }
 /* SITE NAV */
+.site-nav
+{
+    letter-spacing: 0.02em;
+}
 .site-nav .link {
     color: var(--title-text-color);
 }
@@ -26,10 +35,34 @@ body {
 /* hero */
 .hero .hero-title {
     color: var(--privary-white-color);
+    background-color: #2F303A;
+    
+    letter-spacing: 0.06em;
+    font-size: 44px;
+    text-align: center;
+}
+.hero .hero-button {
+    color: var(--privary-white-color);
+    background-color: var(--accent-color);
+    
+    font-family: inherit;
+    letter-spacing: 0.06em;
+    font-size: 16px;
 }
 /* main */
 .section-title{
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.advantages-title {
+    color: var(--title-text-color);
+   
+    font-weight: 700;
+    font-size: 14px;
+
 }
 /* footer */
 .address {
@@ -42,13 +75,49 @@ body {
 span {
     color: var(--accent-color)
 }
-.nav-page .link {
+.filters .button {
     color: var(--title-text-color);
     background-color: #F5F4FA;
 }
-.nav-page .link.current {
+.filters .button:hover,
+.filters .button:focus {
     color: var(--privary-white-color);
     background-color: var(--accent-color);
+}
+.filters .button.current {
+    color: var(--privary-white-color);
+    background-color: var(--accent-color);
+}
+.name {
+    color: var(--title-text-color);
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+.project-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    letter-spacing: 0.06em;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.logo.foot {
+    color: var(--privary-white-color);
+    background-color: #2F303A;
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    
+
+}
+.work {
+    font-size: 16px;
 }
 
 
